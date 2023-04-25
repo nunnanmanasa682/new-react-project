@@ -1,12 +1,11 @@
-import CompC from './Components/CompC'
-function App() {
+import "./App.css";
+import React from 'react'
+
+const classname` = () => {
   return (
-    <>
-      <CompC/>
-    </>
-
+    <div >
+    </Ma</div>
   )
-
 }
 
-export default App;
+export default classname`
