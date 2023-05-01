@@ -3,7 +3,7 @@ import CompD from './Component/CompD'
 const App = () => {
   return (
     <div>
-<CompD />
+      <CompD />
     </div>
   )
 }
