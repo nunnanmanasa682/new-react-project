@@ -3,7 +3,10 @@ import React, { Component } from 'react'
  class UserDetails extends Component {
   render() {
     return (
-      <div>UserDetails</div>
+      <div>
+      <h2>UserDetails</h2> 
+    
+        </div>
     )
   }
 }
