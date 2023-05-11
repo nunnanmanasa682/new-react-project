@@ -1,27 +1,13 @@
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
-import Project from "./Pages/Project";
-import Experience from "./Pages/Experience";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
-import ProjectDisplay from "./Pages/ProjectDisplay";
+import React,{useState} from 'react';
+import Form from './Expensivetracker/Form';
+import Tracker from './Expensivetracker/Tracker';
 
-function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/project/:id" element={<ProjectDisplay />} />
-          <Route path="/experience" element={<Experience />} />
-        </Routes>
-        <Footer />
-      </Router>
-    </div>
-  );
+const App = ()=>{
+  const [track,settrack] = useState([]);
+  return <>
+          <Form track={track} settrack={settrack}/>
+          <Tracker track={track}/>
+         </>;
 }
 
 export default App;
