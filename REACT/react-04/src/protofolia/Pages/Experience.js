@@ -29,7 +29,7 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
+            yogi vemana University, kadapa, Andhra Pradesh
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
@@ -45,7 +45,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Back End Engineer - Google
+            Front-end Developer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             San Francisco, CA
@@ -60,14 +60,14 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            Full web Stack Developer - intership
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Bachelor of Computer
           </h4>
           <p>
-          Helped the team launch 2 major features by working both in the front
-            end and back end.
+          Helped the team launch 2 major features by working  in the front
+            end.
           </p>
           </VerticalTimelineElement>
       </VerticalTimeline>
